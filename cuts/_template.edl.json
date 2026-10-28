@@ -1,0 +1,130 @@
+{
+ "slug": "my-recording-howto",
+ "source": "/absolute/path/to/the recording.mp4",
+ "sourceId": "my-recording",
+ "captionChars": 46,
+ "captionFixes": [
+  [
+   "^Um,? ",
+   ""
+  ]
+ ],
+ "brief": {
+  "title": "How to \u2026",
+  "slug": "my-recording-howto",
+  "demo": false,
+  "fps": 30,
+  "modelLabel": "",
+  "cursorName": "Speaker name",
+  "sound": false,
+  "outro": "card",
+  "logos": [],
+  "face": {
+   "crop": [
+    30,
+    443,
+    216,
+    216
+   ],
+   "name": "Speaker name",
+   "clean": []
+  }
+ },
+ "scenes": [
+  {
+   "id": "intro",
+   "kind": "intro",
+   "duration": 0.9,
+   "evidence": "silent: the hook open runs into the first full-frame shot (the recording's most striking moment). Hook scenes are optional: delete intro, hook1 and hook2 for a straight cut."
+  },
+  {
+   "id": "hook1",
+   "kind": "clip",
+   "spans": [
+    [
+     2672.45,
+     2674.2
+    ]
+   ],
+   "script": "The speaker's strongest reaction line, over the second shot.",
+   "evidence": "one of the speaker's own best lines; remove it from the body so it isn't heard twice"
+  },
+  {
+   "id": "hook2",
+   "kind": "clip",
+   "spans": [
+    [
+     6199.8,
+     6203.7
+    ]
+   ],
+   "script": "The line that names the payoff, over the payoff shot; the title card appears here.",
+   "evidence": "recording 1:43:20"
+  },
+  {
+   "id": "promise",
+   "kind": "clip",
+   "spans": [
+    [
+     690.4,
+     695.7
+    ]
+   ],
+   "padBefore": 0.8,
+   "script": "The first body line (padBefore holds the title card for a breath).",
+   "evidence": "recording 0:11:30, one take",
+   "step": [
+    "Promise"
+   ],
+   "notes": [
+    {
+     "t": "A note in the column",
+     "word": "first"
+    }
+   ]
+  },
+  {
+   "id": "step-two",
+   "kind": "clip",
+   "spans": [
+    [
+     700.3,
+     707.1
+    ],
+    [
+     708.2,
+     709.95
+    ]
+   ],
+   "script": "\u2026",
+   "step": [
+    "Two",
+    "Words"
+   ],
+   "cam": {
+    "cx": 0.6,
+    "cy": 0.45,
+    "z": 1.3
+   }
+  },
+  {
+   "id": "signoff",
+   "kind": "clip",
+   "spans": [
+    [
+     6290.25,
+     6294.7
+    ]
+   ],
+   "script": "I'm \u2026, and I'm signing off.",
+   "endHold": 1.2,
+   "fadeOut": 0.8
+  },
+  {
+   "id": "outro",
+   "kind": "outro",
+   "duration": 3.2
+  }
+ ],
+ "captionLines": 1
+}

@@ -1,0 +1,12 @@
+#!/bin/bash
+# On-device transcriber: tools/transcribe <audio.wav> <out.json>
+# macOS 26 or newer: Apple SpeechAnalyzer (tools/transcribe.apple-bin, built by tools/build-transcribe.sh).
+# Older macOS, or when that binary won't run: mlx-whisper (tools/transcribe_whisper.py, venv at <kit>/.venv, made by setup.sh).
+# Both write the same shape: [{"s","e","text","words":[{"t","s","e"}]}].
+DIR="$(cd "$(dirname "$0")" && pwd)"; KIT="$(dirname "$DIR")"
+MAJOR=$(sw_vers -productVersion 2>/dev/null | cut -d. -f1)
+if [ "${MAJOR:-0}" -ge 26 ] && [ -x "$DIR/transcribe.apple-bin" ] && [ -z "$FORCE_WHISPER" ]; then
+  exec "$DIR/transcribe.apple-bin" "$@"
+fi
+PY="$KIT/.venv/bin/python"; [ -x "$PY" ] || PY=python3
+exec "$PY" "$DIR/transcribe_whisper.py" "$@"

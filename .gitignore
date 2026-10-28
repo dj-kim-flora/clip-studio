@@ -1,0 +1,50 @@
+# dependencies and environments
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# disposable work: scratch, QA stills, raw and superseded renders
+_work/
+
+# secrets and local settings
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
+
+# your recordings, transcripts and finished videos stay on your computer
+deliverables/
+source/*/
+source/*.check.json
+!source/.keep
+*.mp4
+*.mov
+*.m4v
+*.m4a
+*.webm
+*.mkv
+*.wav
+*.mp3
+*.ogg
+public/media/
+public/voice/
+public/music/
+
+# your look (logos, licensed fonts, guidelines) stays local; only the neutral default and the open-licence font ship
+public/brand/*
+!public/brand/geist.ttf
+!public/brand/brand.default.json
+
+# your projects
+briefs/*
+!briefs/.keep
+cuts/*
+!cuts/.keep
+!cuts/_template*.edl.json
+src/films/local-films.ts
+
+# built on your Mac by setup.sh (from tools/transcribe.swift)
+tools/transcribe.apple-bin

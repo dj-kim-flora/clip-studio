@@ -1,0 +1,11 @@
+{
+  "tiktok":    {"label": "TikTok",           "ratio": "9:16", "width": 1080, "height": 1920, "maxSeconds": 180, "loudness": -14, "captionPos": "lower",  "notes": "Keep faces and captions clear of the right-hand buttons and the bottom caption area. Best under 60 s."},
+  "reels":     {"label": "Instagram Reels",  "ratio": "9:16", "width": 1080, "height": 1920, "maxSeconds": 90,  "loudness": -14, "captionPos": "lower",  "notes": "Keep key content out of the top 12% and bottom 22%. Up to 90 s; shorter performs better."},
+  "shorts":    {"label": "YouTube Shorts",   "ratio": "9:16", "width": 1080, "height": 1920, "maxSeconds": 60,  "loudness": -14, "captionPos": "lower",  "notes": "Up to 60 s (3 min is possible on newer accounts, but 60 s is the safe limit)."},
+  "linkedin":  {"label": "LinkedIn",         "ratio": "4:5",  "width": 1080, "height": 1350, "maxSeconds": 120, "loudness": -16, "captionPos": "lower",  "notes": "Sound is often off: always burn in captions. 4:5 takes the most feed space. 30 to 90 s works best."},
+  "x":         {"label": "X (Twitter)",      "ratio": "1:1",  "width": 1080, "height": 1080, "maxSeconds": 140, "loudness": -14, "captionPos": "lower",  "notes": "Up to 2 min 20 s on the free tier. Square or 16:9 both display well; captions matter because of autoplay on mute."},
+  "youtube":   {"label": "YouTube",          "ratio": "16:9", "width": 1920, "height": 1080, "maxSeconds": 3600, "loudness": -14, "captionPos": "lower", "notes": "Standard widescreen. YouTube turns loud audio down to about -14 LUFS."},
+  "feed-4x5":  {"label": "Feed 4:5",         "ratio": "4:5",  "width": 1080, "height": 1350, "maxSeconds": 90,  "loudness": -14, "captionPos": "lower",  "notes": "Instagram or Facebook feed portrait. Fills more of the screen than a square."},
+  "square":    {"label": "Square 1:1",       "ratio": "1:1",  "width": 1080, "height": 1080, "maxSeconds": 90,  "loudness": -14, "captionPos": "center", "notes": "Works in every feed. Good for quote cards and audiograms."},
+  "widescreen":{"label": "Widescreen 16:9",  "ratio": "16:9", "width": 1920, "height": 1080, "maxSeconds": 600, "loudness": -14, "captionPos": "lower",  "notes": "Websites, presentations, embeds."}
+}

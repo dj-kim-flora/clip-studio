@@ -1,0 +1,38 @@
+{
+ "slug": "my-recording-01",
+ "source": "/absolute/path/to/the recording.mp4",
+ "sourceId": "my-recording",
+ "captionChars": 32,
+ "captionFixes": [
+  [
+   "^Um,? ",
+   ""
+  ]
+ ],
+ "brief": {
+  "title": "Why most pricing pages fail",
+  "slug": "my-recording-01",
+  "demo": false,
+  "fps": 30,
+  "modelLabel": "",
+  "cursorName": "",
+  "sound": false,
+  "outro": "none",
+  "logos": []
+ },
+ "scenes": [
+  {
+   "id": "clip",
+   "kind": "clip",
+   "spans": [
+    [
+     812.4,
+     846.9
+    ]
+   ],
+   "script": "Most pricing pages fail for one reason. They list features, not outcomes. \u2026 (the exact words of the span, as the transcript has them, without ums)",
+   "evidence": "recording 0:13:32 to 0:14:07; opens with the claim, ends on the takeaway"
+  }
+ ],
+ "captionLines": 1
+}

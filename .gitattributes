@@ -1,0 +1,2 @@
+# Preserve the upstream OFL verbatim; its documented trailing spaces are not source-code whitespace.
+licenses/Geist-OFL.txt -whitespace

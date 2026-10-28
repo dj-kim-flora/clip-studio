@@ -1,0 +1,38 @@
+{
+  "name": null,
+  "source": "default",
+  "colors": {
+    "background": "#0A0A0A",
+    "ink": "#F5F5F0",
+    "muted": "#969696",
+    "accent": "#4C8DFF",
+    "accentInk": "#9CC2FF",
+    "accentFill": "#101A2E",
+    "panel": "#161616",
+    "panelBorder": "rgba(255,255,255,0.12)"
+  },
+  "fonts": {
+    "display": {
+      "family": "Geist",
+      "files": [{"file": "geist.ttf", "weight": "100 900", "style": "normal"}],
+      "fallback": "Georgia, serif"
+    },
+    "body": {
+      "family": "Geist",
+      "files": [{"file": "geist.ttf", "weight": "100 900", "style": "normal"}],
+      "fallback": "system-ui, sans-serif"
+    }
+  },
+  "logo": {"mark": null, "wordmark": null, "animated": null},
+  "style": {
+    "backdrop": "dots",
+    "radius": 16,
+    "captionStyle": "pill",
+    "headlineCase": "sentence",
+    "motion": "punchy"
+  },
+  "outro": {"line": "", "handle": "", "cta": ""},
+  "glossary": [],
+  "music": {"default": null},
+  "notes": ""
+}
