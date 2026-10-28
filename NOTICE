@@ -1,0 +1,6 @@
+Third-party terms
+
+- The bundled Geist font (public/brand/geist.ttf) is licensed under the SIL Open Font License 1.1: see licenses/Geist-OFL.txt.
+- Remotion, React and the other npm dependencies keep their own licences. Remotion has its own licence terms for company use:
+  https://www.remotion.dev/license
+- Anything you add (footage, music, logos, fonts, brand files) stays yours; you are responsible for having the rights to it.
