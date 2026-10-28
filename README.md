@@ -39,21 +39,28 @@ It works on podcasts, interviews, livestreams, webinars, talks, lectures, tutori
 
 ## Get started
 
-You need a **Mac** and an **AI coding assistant** such as [Claude Code](https://claude.com/claude-code), Codex, Cursor or Gemini CLI. The assistant does the work; you just talk to it.
+You need a **Mac** and an **AI assistant that can work on your computer**, such as the Code tab in the [Claude](https://claude.com/claude-code) app, Codex, Cursor or Gemini CLI. (A chat-only website can't install things on your computer.) You will not need to use Terminal.
 
-**1. Download this folder.** Click the green **Code** button, then **Download ZIP**, and unzip it. (If you use Git: `git clone https://github.com/dj-kim-flora/clip-studio.git`.)
+### Easiest way: just ask your AI
 
-**2. Open the folder in your assistant** and say:
+Open your AI assistant and paste this:
 
-> Set this up for me.
+> Install this skill for me and set it up: https://github.com/dj-kim-flora/clip-studio
 
-It checks what your Mac needs, installs what it can, and tells you if there is anything you have to do yourself. This takes about 10 minutes the first time and is a one-off.
+That's the whole install. The assistant downloads it, installs what it needs, and tells you if there is anything only you can do. It may ask your permission before it runs things on your computer; say yes. The first time takes about 10 minutes.
 
-**3. Say what you have and what you want.** For example:
+### Then say what you have and what you want
 
 > Pull the best clips out of my podcast. It's at ~/Downloads/episode-12.mp4.
 
 > Make a 45-second behind-the-scenes reel from this link: https://…
+
+<details>
+<summary>Prefer to do it yourself?</summary>
+
+Click the green **Code** button on this page, then **Download ZIP**, and unzip it (or `git clone https://github.com/dj-kim-flora/clip-studio.git`). Open the folder in your assistant and say "Set this up for me." Or, in Terminal: `cd clip-studio && bash setup.sh`.
+
+</details>
 
 That's it. The assistant will:
 

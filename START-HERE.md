@@ -4,15 +4,13 @@ You don't need to code or know video terms. Give an AI agent your recording; it 
 
 ## 1. Install (once, about 10 minutes)
 
-Get this folder onto your computer (a Mac), then in Terminal:
+No Terminal needed. Open your AI assistant (the Code tab in the Claude app, Codex or Cursor) and paste:
 
-```sh
-cd clip-studio
-bash setup.sh
-```
+> Install this skill for me and set it up: https://github.com/dj-kim-flora/clip-studio
 
-Not comfortable in Terminal? Open the folder in Claude Code, Codex or Cursor and say **"set this up for me"**. The agent
-runs the setup and tells you if anything needs you.
+It downloads everything, installs what it needs, and tells you if anything needs you. Say yes to its permission prompts.
+
+Already have the folder on your Mac? Open it in your assistant and say **"set this up for me"**. (Comfortable in Terminal? `cd clip-studio && bash setup.sh`.)
 
 ## 2. Make something
 
